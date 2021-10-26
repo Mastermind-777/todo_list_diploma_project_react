@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/todo_list_diploma_project/static/css/main.50844620.chunk.css",
+    "main.js": "/todo_list_diploma_project/static/js/main.755474d0.chunk.js",
+    "main.js.map": "/todo_list_diploma_project/static/js/main.755474d0.chunk.js.map",
+    "runtime-main.js": "/todo_list_diploma_project/static/js/runtime-main.91f66e68.js",
+    "runtime-main.js.map": "/todo_list_diploma_project/static/js/runtime-main.91f66e68.js.map",
+    "static/js/2.614b235e.chunk.js": "/todo_list_diploma_project/static/js/2.614b235e.chunk.js",
+    "static/js/2.614b235e.chunk.js.map": "/todo_list_diploma_project/static/js/2.614b235e.chunk.js.map",
+    "index.html": "/todo_list_diploma_project/index.html",
+    "static/css/main.50844620.chunk.css.map": "/todo_list_diploma_project/static/css/main.50844620.chunk.css.map",
+    "static/js/2.614b235e.chunk.js.LICENSE.txt": "/todo_list_diploma_project/static/js/2.614b235e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/todo_list_diploma_project/static/media/background.80dd5058.jpg",
+    "static/media/logo.fd9fe050.jpg": "/todo_list_diploma_project/static/media/logo.fd9fe050.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91f66e68.js",
+    "static/js/2.614b235e.chunk.js",
+    "static/css/main.50844620.chunk.css",
+    "static/js/main.755474d0.chunk.js"
+  ]
+}
