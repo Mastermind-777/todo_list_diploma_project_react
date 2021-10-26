@@ -1,14 +1,33 @@
-import React from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
+import { TodoContext } from '../Context/index'
 
-function Sidebar({children}) {
+function Sidebar({ children }){
+    // CONTEXT
+    const { setSelectedTodo } = useContext(TodoContext)
 
+    // REF
+    const sidebarRef = useRef()
 
-  return (
-    <div className='Sidebar'>
-      {children}
-    </div>
+    useEffect(() => {
+        document.addEventListener('click', handleClick)
 
-  )
+        return () => document.removeEventListener('click', handleClick)
+    })
+
+    const handleClick = e => {
+        if(e.target === sidebarRef.current || sidebarRef.current.contains(e.target)){
+            setSelectedTodo(undefined)
+        }
+    }
+
+    return (
+        <div
+            className='Sidebar'
+            ref={sidebarRef}
+        >
+            {children}
+        </div>
+    )
 }
 
 export default Sidebar
