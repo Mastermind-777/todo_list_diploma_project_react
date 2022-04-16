@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Multifunctional TO-DO list for notes and daily plans
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
