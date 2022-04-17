@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "homepage": "https://Mastermind-777.github.io/todo_list_diploma_project",
+  "homepage": "https://Mastermind-777.github.io/todo_list_react",
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
