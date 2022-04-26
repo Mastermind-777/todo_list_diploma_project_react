@@ -1,5 +1,7 @@
-# Multifunctional TO-DO list for notes and daily plans
-
+# Multifunctional TO-DO list for notes and daily plans  
+  
+## Todo App With React And Firebase  
+  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
